@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.1">
+  <diagram name="Page-1" id="ZpLFcNiLqt5DyXjHlmX7">
+    <mxGraphModel dx="1281" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-1" value="Regular Member" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="20" width="540" height="520" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-2" value="- attendanceLimit : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="26" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-3" value="- isEligibleForUpgrade : boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="52" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-4" value="- removalReason, referalSource, plan : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="78" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-5" value="- price : double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="104" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-6" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="130" width="540" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-7" value="+ &amp;lt;&amp;lt;constructor&amp;gt;&amp;gt; RegularMember(Id : int,&amp;nbsp;&lt;span style=&quot;&quot;&gt;Name, Location, Phone,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;Email, Gender, DoB, membershipStartDate, referalSource : String&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="138" width="540" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-8" value="+ getattendanceLimit(), getId() : int" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="178" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-9" value="+ getisElegibleForUpgrade() : boolean" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="208" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-10" value="+ getloyaltyPoints() : boolean" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="238" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-11" value="+ getPrice() : double" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="268" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-12" value="+ getReferalSource(), ger RemovalReason(), getplan() : String&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="298" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-17" value="+ getmarkAttendance : void&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;&amp;lt;overridden&amp;gt;&amp;gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="328" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-14" value="+ getplanPrice (plan : String) : double&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="358" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-15" value="+ upgradePlan (newPlan : String) : String&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="388" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-13" value="+ revertRegularMember (removalReason : String) : void" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="418" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wMXe2GH8ufPnE7DiQyLY-16" value="+ display : void&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;&amp;lt;overridden&amp;gt;&amp;gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wMXe2GH8ufPnE7DiQyLY-1">
+          <mxGeometry y="448" width="540" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
